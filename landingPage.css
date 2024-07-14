@@ -1,0 +1,14 @@
+.landinPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://th.bing.com/th/id/OIP.PhD-zxHHVqEm4Wa8AE5Z0QHaEK?w=286&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+}
+h1{
+    margin: 20px;
+    color: antiquewhite;
+    /* margin-left: 500px; */
+}

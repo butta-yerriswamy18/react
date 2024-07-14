@@ -1,0 +1,61 @@
+.merchantsignup{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    background-image: url(https://th.bing.com/th/id/OIP.fo-sWLv-P1x5fSLYiZbWJwHaEK?w=312&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.merchantsignup>legend{
+    font-size: 35px;
+    color: bisque;
+    text-shadow: 0px 0px 2px black;
+    font-weight: bold;
+    margin-top: 18vh;
+    margin-left: 500px;
+}
+.merchantsignup>form{
+    height: 300px;
+    width: 405px;
+    box-shadow: 0px 0px 5px black;
+    margin-left: 390px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(244, 5, 5),rgb(169, 193, 193));
+    padding-top: 10px;
+    padding: 20px;
+    /* line-height: 30px; */
+}
+.merchantsignup>form>label{
+    /* height: 100px; */
+    /* size: 50px; */
+    font-size: 20px;
+}
+.merchantsignup>form>label>input{
+    height: 25px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+    background: transparent;
+    font-size: 25px;
+}
+.merchantsignup>form>label>input:hover{
+    transform: scale(1.1);
+}
+.merchantsignup>form>button{
+    margin-left: 110px;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(25, 247, 110);
+}
+.merchantsignup>form>button:hover{
+    transform: scale(1.1);
+}

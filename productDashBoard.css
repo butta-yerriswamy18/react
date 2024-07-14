@@ -1,0 +1,24 @@
+.dashboard{
+    /* background-color: aqua; */
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(https://th.bing.com/th/id/OIP.Yx4WAwMBbHenA9kBmEneSgHaD2?w=346&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+    height: 87.5vh;
+    width: 100vw;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+
+}
+.dashboard>.productslist{
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(80, 77, 77);
+    
+}
+
